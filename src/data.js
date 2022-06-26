@@ -1,21 +1,21 @@
 export const featuredPortfolio = [
     {
         id: 1,
-        title: "Social Media App",
-        img:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        title: "custom form control",
+        img:'/assets/custom.png',
+        link:'https://3xn448.csb.app/'
     },
     {
         id: 2,
-        title: "Rampa UI Design",
-        img:
-            "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
+        title: "flex layout",
+        img:'/assets/layout.png',
+        link:'https://x4x64n.csb.app/'
     },
     {
         id: 3,
-        title: "E-commerce Web Design",
-        img:
-            "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+        title: "Html semantic",
+        img:'/assets/html 5.png',
+        link:'https://g16l4t.csb.app/'
     },
     {
         id: 4,
@@ -40,8 +40,9 @@ export const featuredPortfolio = [
 export const webPortfolio = [
     {
         id: 1,
-        title: "Web Social Media App",
-        img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+        title: "Datepicker",
+        img: "assets/datepicker.png",
+        link:'https://github.com/Mr-Oleksandr/Datepicker'
     },
     {
         id: 2,
@@ -148,41 +149,3 @@ export const designPortfolio = [
     },
 ];
 
-export const contentPortfolio = [
-    {
-        id: 1,
-        title: "Content Social Media App",
-        img:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-        id: 2,
-        title: "Content Rampa UI Design",
-        img:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-        id: 3,
-        title: "Content E-commerce Web Design",
-        img:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-        id: 4,
-        title: "Content Relax Mobile App",
-        img:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-        id: 5,
-        title: "Content Keser Web Design",
-        img:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-        id: 6,
-        title: "Content Banking App",
-        img:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-];

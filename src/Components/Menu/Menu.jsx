@@ -5,7 +5,6 @@ const Menu = ({menuOpen, setMenuOpen}) => {
         {label:'Home', link:'#intro'},
         {label:'Portfolio', link:'#portfolio'},
         {label:'Works', link:'#works'},
-        {label:'Testimonials', link:'#testimonials'},
         {label:'Contact', link:'#contact'},
     ]
     const elements = list.map(({label, link}) => (

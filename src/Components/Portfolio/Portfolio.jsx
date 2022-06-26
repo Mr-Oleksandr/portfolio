@@ -8,38 +8,32 @@ const Portfolio = () => {
 
     const list = [
         {
-            id:'featured',
-            title:'featured'
+            id:'html',
+            title:'Html Template'
         },
         {
-            id:'web',
-            title:'Web App'
+            id:'javascript',
+            title:'JavaScript'
         },
         {
-            id:'mobile',
-            title:'Mobile App'
+            id:'react',
+            title:'React JS'
         },
         {
-            id:'design',
-            title:'Design'
-        },
-        {
-            id:'content',
-            title:'Content'
+            id:'redux',
+            title:'Redux Js'
         },
     ]
 
     useEffect(() => {
         switch (selected){
-            case 'featured':setData(featuredPortfolio);
+            case 'html':setData(featuredPortfolio);
             break;
-            case 'web':setData(webPortfolio);
+            case 'javascript':setData(webPortfolio);
             break;
-            case'mobile':setData(mobilePortfolio);
+            case'react':setData(mobilePortfolio);
             break;
-            case'design':setData(designPortfolio);
-            break;
-            case'content':setData(contentPortfolio);
+            case'redux':setData(designPortfolio);
             break;
             default:
                 setData(featuredPortfolio)
@@ -57,7 +51,7 @@ const Portfolio = () => {
                 {data.map((d) => (
                     <div className="item">
                         <img src={d.img} alt=""/>
-                        <h3>{d.title}</h3>
+                        <h3><a style={{textDecoration:'none', color:'white'}} target='_blank' href={d.link}>{d.title}</a></h3>
                     </div>
                 ))}
 

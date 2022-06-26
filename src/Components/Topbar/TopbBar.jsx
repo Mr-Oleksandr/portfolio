@@ -9,11 +9,11 @@ const TopbBar = ({menuOpen, setMenuOpen}) => {
                     <a href="#intro" className='logo'>Oleksandr</a>
                     <div className="itemContainer">
                         <AiOutlineUser className="icon"/>
-                        <span>+380964926330</span>
+                        <a href='tel:+380964926330'>+380964926330</a>
                     </div>
                     <div className="itemContainer">
                         <AiTwotoneMail className="icon"/>
-                        <span>skovalov777@gmail.com</span>
+                        <a href="mailto:skovalov777@gmail.com">skovalov777@gmail.com</a>
                     </div>
                 </div>
                 <div className="right">
