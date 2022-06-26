@@ -1,24 +1,23 @@
 import React from 'react';
 import "./Menus.scss"
 const Menu = ({menuOpen, setMenuOpen}) => {
+    const list = [
+        {label:'Home', link:'#intro'},
+        {label:'Portfolio', link:'#portfolio'},
+        {label:'Works', link:'#works'},
+        {label:'Testimonials', link:'#testimonials'},
+        {label:'Contact', link:'#contact'},
+    ]
+    const elements = list.map(({label, link}) => (
+        <li key={label} onClick={()=> setMenuOpen(false)}>
+            <a href={link}>{label}</a>
+        </li>
+    ))
+
     return (
         <div className={'menu '+ (menuOpen && 'activeMenu')}>
             <ul>
-                <li>
-                    <a href="#intro">Home</a>
-                </li>
-                <li>
-                    <a href="#contact">Contact</a>
-                </li>
-                <li>
-                    <a href="#works">Works</a>
-                </li>
-                <li>
-                    <a href="#testimonials">Testimonials</a>
-                </li>
-                <li>
-                    <a href="#portfolio">Portfolio</a>
-                </li>
+                {elements}
             </ul>
 
         </div>

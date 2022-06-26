@@ -3,7 +3,6 @@ import TopbBar from "./Components/Topbar/TopbBar";
 import Intro from "./Components/Intro/Intro";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import Works from "./Components/Works/Works";
-import Testimonials from "./Components/Testimonials/Testimonials";
 import Contact from "./Components/Contact/Contact";
 import './App.scss'
 import Menu from "./Components/Menu/Menu";
@@ -18,7 +17,6 @@ function App() {
             <Intro/>
             <Portfolio/>
             <Works/>
-            <Testimonials/>
             <Contact/>
         </div>
     </div>
