@@ -9,14 +9,27 @@ const Contact = () => {
     return (
         <div className="contact" id="contact">
             <div className="left">
-                <img src="assets/shake-hand.png" alt=""/>
+                <h2>
+                    Contact information
+                </h2>
+                <p>
+                    if you are interested in the portfolio, write me an e-mail
+                </p>
+                <ul>
+                    <li>
+                        Address: Chernivtsi
+                    </li>
+                    <li>
+                        Phone: +380964926330
+                    </li>
+                    <li>
+                        Email: skovalov777@gmail.com
+                    </li>
+                </ul>
             </div>
             <div className="right">
-                <h2>
-                    Contact
-                </h2>
                 <form onSubmit={handleSubmit} action="">
-                    <input type="text" placeholder='Email'/>
+                    <input type="email" id="email" placeholder='Email'/>
                     <textarea placeholder='Message'></textarea>
                     <button type="submit">Send</button>
                     {message && <span style={{color:'green'}}>Thanks, for message</span>}

@@ -12,19 +12,19 @@ const Works = () => {
             id: "1",
             icon: "./assets/html.png",
             title: "HTML/CSS",
-            desc:<ProgressBar bgcolor={"#6a1b9a"} completed={100}/>,
+            desc:<ProgressBar bgcolor={"#6a1b9a"} completed={90}/>,
         },
         {
             id: "2",
             icon: "./assets/atom.png",
             title: "React Js",
-            desc:<ProgressBar bgcolor={"#6a1b9a"} completed={50}/>,
+            desc:<ProgressBar bgcolor={"#6a1b9a"} completed={80}/>,
         },
         {
             id: "3",
             icon: "./assets/javascript.png",
             title: "JavaScript",
-            desc:<ProgressBar bgcolor={"#6a1b9a"} completed={60}/>
+            desc:<ProgressBar bgcolor={"#6a1b9a"} completed={70}/>
         },
     ];
 
