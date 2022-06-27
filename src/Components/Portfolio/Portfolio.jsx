@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import './Portfolio.scss'
 import PortfolioList from "../PortfolioList/PortfolioList";
-import {featuredPortfolio, designPortfolio, mobilePortfolio, webPortfolio, contentPortfolio} from '../../data'
+import {featuredPortfolio, designPortfolio, mobilePortfolio, webPortfolio} from '../../data'
 const Portfolio = () => {
     const [selected, setSelected] = useState("featured")
     const [data, setData] = useState([])
@@ -44,12 +44,12 @@ const Portfolio = () => {
             <h1>Portfolio</h1>
             <ul>
                 {list.map(({id,title}) => (
-                    <PortfolioList title={title} active={selected === id} setSelected={setSelected} id={id}/>
+                    <PortfolioList key={id}  title={title} active={selected === id} setSelected={setSelected} id={id}/>
                 ))}
             </ul>
             <div className="container">
                 {data.map((d) => (
-                    <div className="item">
+                    <div key={d.title} className="item">
                         <img src={d.img} alt=""/>
                         <h3><a style={{textDecoration:'none', color:'white'}} target='_blank' href={d.link}>{d.title}</a></h3>
                     </div>
